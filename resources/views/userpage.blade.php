@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-    
-    </head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <body>
-        <h1>Titilo</h1>
-        <button onclick="partecipaForm()">partecipia ad un padlet</button>
+        <h1>Titolo</h1>
+        <button onclick="partecipaForm()">partecipa ad un padlet</button>
         <div><a href='{{route("create-padlet")}}'>crea un padlet</a></div>
         <div id="container-all">
         @if(Session::get('logged'))
