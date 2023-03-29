@@ -4,6 +4,7 @@
     <body>
       
         <main class="container">
+            <div><a href="{{route('register')}}">go to register</a></div>
             <div class="row justify-content-md-center mt-5 mb-5">
                 <div class="col-md-auto">
                     <form method="POST">
